@@ -1,3 +1,5 @@
 /with-fsanitize-code/c/test_c
 /with-fsanitize-code/with-fsanitize-code
+/with-fsanitize-so/with-fsanitize-so
+/with-fsanitize-so/c/libtest.so
 *.o
