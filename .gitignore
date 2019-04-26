@@ -1,0 +1,3 @@
+/with-fsanitize-code/c/test_c
+/with-fsanitize-code/with-fsanitize-code
+*.o
