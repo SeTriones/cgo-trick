@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 ulimit -c unlimited
-CGO_CFLAGS="-fsanitize=address"
-CGO_CGO_LDFLAGS="-lasan"
-go build
+export CGO_CFLAGS="-fsanitize=address"
+export CGO_LDFLAGS="-lasan"
+go env
+go build -x
 ./with-fsanitize-code
